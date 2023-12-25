@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.section {
+  margin: 10px;
+}
+.color-yellow {
+  background-color: #fef9c3;
+}
+.color-red {
+  color: #cf261f;
+}
+.color-pink {
+  background: rgb(255, 211, 209);
+}
+.person {
+  background-size: cover;
+  /* width: 100%; */
+}
+/* 
+@media (min-width: 768px) {
+  .person {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .person {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .person {
+    width: 80%;
+  }
+} */
+
+.time {
+  background: #fff;
+}
+
+.group {
+  position: relative;
+}
+
+.group_person {
+  width: 3rem;
+  height: 3rem;
+}
+.person_2 {
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-radius: 50%;
+}
+.person_3 {
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 30px;
+  border-radius: 50%;
+}
+.person_4 {
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 50px;
+  border-radius: 50%;
+}
+.person_5 {
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 70px;
+  border-radius: 50%;
+}
+.person_6 {
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 90px;
+  border-radius: 50%;
+}
+
+.card_img {
+  width: 30%;
+}
+
+.component-card {
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+.quality .title {
+  color: rgba(207, 38, 31, 1);
+}
+.quality .sub-title {
+  background: rgba(207, 38, 31, 1);
+  color: #fff;
+  padding: 2px 5px;
+}
+
+.quality .book-title {
+  background: rgba(207, 38, 31, 1);
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+.quality .book {
+  margin-top: 15px;
+  width: 100%;
+  height: 20rem;
+}
+
+.more {
+  background: url("./images/book1.png");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 20px;
+  position: relative;
+}
+.qr-img {
+  width: 200px;
+  padding-left: 5%;
+  position: absolute;
+  top: 25%;
+}
+.rs {
+  background: rgba(207, 38, 31, 1);
+  color: #fff;
+  text-align: end;
+  font-size: 20px;
+  margin-top: 60px;
+  padding: 15px 30px;
+  padding-right: 30px;
+}
+.register {
+  color: #fff;
+  text-align: end;
+  font-size: 20px;
+  padding-right: 30px;
+  margin-bottom: 60px;
+}
+.uses .blank1 {
+  width: 100%;
+  height: 301px;
+  background: rgba(217, 217, 217, 1);
+  border-radius: 20px;
+}
+
+.hard-challenge table tr th,
+.hard-challenge td {
+  padding: 10px;
+  border: 2px solid rgba(207, 38, 31, 1);
+}
+.attempt .blank2 {
+  width: 100%;
+  height: 200px;
+  background: rgba(217, 217, 217, 1);
+  border-radius: 20px;
+}
+.notes {
+  background-color: rgba(254, 249, 195, 1);
+}
+.notes .heading {
+  color: rgba(207, 38, 31, 1);
+}
+
+.price .sub-title {
+  color: rgba(207, 38, 31, 1);
+}
+
+.price table .header {
+  padding: 5px;
+  background: rgba(207, 38, 31, 1);
+  color: #fff;
+}
+.price .price-table {
+  width: 100%;
+  border-radius: 25px;
+}
+.end-table-header {
+  border-top-right-radius: 20px;
+}
+.price-table tr th,
+.price-table tr td {
+  border: 2px solid white;
+}
+.price-table tr td {
+  padding: 10px;
+}
+
+.price .code {
+  background: #fff;
+  border: 2px dashed rgba(207, 38, 31, 1);
+  padding: 10px;
+  margin: 10px;
+}
+
+.time .time_enroll {
+  font-size: 6rem;
+}
+
+.time_enroll_title {
+  padding-right: 4rem;
+  font-size: 2rem;
+}
+.delete {
+  color: gray;
+}
+
+.price-data {
+  width: 30px;
+}
+
+.tick_green {
+  width: 15px;
+}
