@@ -1,4 +1,4 @@
-const dueTime = new Date("December 27, 2023 23:59:59 UTC").getTime();
+const dueTime = new Date("December 27, 2023 23:59:59").getTime();
 
 function padNumber(number) {
     return number < 10 ? `0${number}` : `${number}`;
