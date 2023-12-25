@@ -88,13 +88,14 @@
 }
 
 .card_img {
-  width: 30%;
+  width: 40%;
 }
 
 .component-card {
   border: 2px solid;
   border-radius: 5px;
-  box-shadow: 3px 7px 3px gray;
+  box-shadow: 7px 7px 3px gray;
+  font-size: 20px;
 }
 
 .quality .title {
