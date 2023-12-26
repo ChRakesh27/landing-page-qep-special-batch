@@ -13,63 +13,45 @@
 .color-red {
   color: #cf261f;
 }
+.color-white {
+  color: #fff;
+}
 .color-pink {
   background: rgb(255, 211, 209);
 }
 .person {
-  overflow: hidden;
   width: 100%;
-  height: 500px;
+  height: 480px;
 }
 .person-img {
-  width: 80%;
   height: 90%;
 }
 .time {
   background: #fff;
 }
 
-.group {
-  position: relative;
-}
-
-.group_person {
-  width: 3rem;
-  height: 3rem;
-}
 .person_2 {
-  opacity: 1;
   position: relative;
-  top: 0px;
-  left: 0px;
   border-radius: 50%;
 }
 .person_3 {
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 30px;
+  position: relative;
+  left: -20px;
   border-radius: 50%;
 }
 .person_4 {
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 50px;
+  position: relative;
+  left: -40px;
   border-radius: 50%;
 }
 .person_5 {
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 70px;
+  position: relative;
+  left: -60px;
   border-radius: 50%;
 }
 .person_6 {
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 90px;
+  position: relative;
+  left: -80px;
   border-radius: 50%;
 }
 
@@ -102,39 +84,35 @@
 .quality .book {
   margin-top: 15px;
   width: 100%;
-  height: 20rem;
+  height: 35rem;
 }
 
 .more {
-  background: url("./images/book1.png");
+  background: url("./images/price.png");
   width: 100%;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   border-radius: 20px;
-  position: relative;
 }
 .qr-img {
-  width: 200px;
+  width: 100%;
   padding-left: 5%;
-  position: absolute;
-  top: 25%;
+  position: relative;
+  top: 15rem;
 }
 .rs {
   background: rgba(207, 38, 31, 1);
   color: #fff;
   text-align: end;
-  font-size: 20px;
-  margin-top: 60px;
-  padding: 15px 30px;
-  padding-right: 30px;
+  padding: 30px 30px;
 }
 .register {
   color: #fff;
   text-align: end;
   font-size: 20px;
   padding-right: 30px;
-  margin-bottom: 60px;
+  margin-bottom: 100px;
 }
 .uses .blank1 {
   width: 100%;
@@ -183,6 +161,7 @@
 }
 .price-table tr td {
   padding: 10px;
+  font-size: 2rem;
 }
 
 .price .code {
@@ -196,10 +175,23 @@
   font-size: 6rem;
 }
 
-.time_enroll_title {
-  padding-right: 4rem;
-  font-size: 2rem;
+.days {
+  position: relative;
+  left: -7rem;
 }
+.hours {
+  position: relative;
+  left: -1rem;
+}
+.minutes {
+  position: relative;
+  left: 4rem;
+}
+.seconds {
+  position: relative;
+  left: 9rem;
+}
+
 .delete {
   color: gray;
 }
@@ -210,4 +202,13 @@
 
 .tick_green {
   width: 15px;
+}
+
+.hard-challenge table tr th {
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+}
+.hard-challenge table tr td {
+  font-size: 2rem;
 }
