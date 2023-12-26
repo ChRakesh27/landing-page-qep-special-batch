@@ -26,6 +26,9 @@
 .text-shadows {
   text-shadow: 5px 5px 10px gray;
 }
+.bg-color-white {
+  background: #fff;
+}
 
 .person {
   width: 100%;
@@ -144,13 +147,6 @@ td:nth-child(2) {
 }
 .notes {
   background-color: rgba(254, 249, 195, 1);
-}
-.notes .heading {
-  color: rgba(207, 38, 31, 1);
-}
-
-.price .sub-title {
-  color: rgba(207, 38, 31, 1);
 }
 
 .price table .header {
