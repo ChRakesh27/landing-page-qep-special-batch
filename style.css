@@ -4,6 +4,30 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
+.main {
+  position: relative;
+}
+
+.mobView {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  position: fixed;
+}
+.get-note {
+  width: 100%;
+  background: #f97316;
+  border: #f97316 3px solid;
+}
+.check-price {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-decoration-line: none;
+  border: 3px solid #f97316;
+  background: #fff;
+  color: #f97316;
+}
 
 .section {
   margin: 20px;
@@ -238,4 +262,7 @@ td:nth-child(2) {
 }
 .gs-book-col {
   height: 100%;
+}
+.hard-challenge {
+  margin-bottom: 100px;
 }

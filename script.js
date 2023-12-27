@@ -20,6 +20,18 @@ function updateCounter() {
         document.getElementById("timer").innerText = "Time's up!";
     }
 }
+function detectMob() {
+    if ((window.innerWidth <= 1000)) {
+        document.getElementById('demo').innerHTML = ` <div class="row p-0 m-0 font-size-list">
+        <div class="col-6 p-0 m-0"><button class="get-note color-white p-4">Get Sample
+        Notes</button></div>
+        <div class="col-6 p-0 m-0">
+        <a href="#price" class="check-price p-4">Check Pricing</a>
+        </div>
+        </div>`
+    }
+}
+detectMob()
 
 updateCounter();
 setInterval(updateCounter, 1000);
